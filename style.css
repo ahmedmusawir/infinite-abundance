@@ -5952,6 +5952,7 @@ header {
 
 .top-header-txt h1 {
   font-weight: 700;
+  font-size: 6rem;
   color: #517c14;
   padding-top: 3rem;
   font-variant: small-caps; }

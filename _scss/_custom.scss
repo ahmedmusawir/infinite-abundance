@@ -114,6 +114,17 @@ header {
 	h3 {
 		color: white;
 	}
+	.get-btn {
+		background-color: rgba( $steel, .4 );
+		border: 3px solid $steel;
+		padding-top: 2rem;
+		padding-bottom: 2rem;
+		margin-top: 3rem;
+
+		&:hover {
+			background-color: lighten( $steel, 20% );
+		}
+	}
 }
 
 .middle-content-block {
@@ -236,6 +247,10 @@ header {
 	img {
 		width: 20%;
 		padding: 2rem;
+
+		@media ( max-width: 700px ) {
+			width: 100%;
+		}
 	}
 }
 

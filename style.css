@@ -5962,6 +5962,14 @@ header {
 
 .middle-header-block h3 {
   color: white; }
+.middle-header-block .get-btn {
+  background-color: rgba(102, 102, 102, 0.4);
+  border: 3px solid #666666;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-top: 3rem; }
+  .middle-header-block .get-btn:hover {
+    background-color: #999999; }
 
 .middle-content-block {
   margin-top: 4rem;
@@ -6041,6 +6049,9 @@ header {
   .bottom-step1-block img {
     width: 20%;
     padding: 2rem; }
+    @media (max-width: 700px) {
+      .bottom-step1-block img {
+        width: 100%; } }
 
 .disclaimer {
   padding-top: 2rem;
